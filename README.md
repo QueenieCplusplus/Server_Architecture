@@ -19,27 +19,29 @@
 # High Availability 熱備援
 
  
-                                Internet
-                                
-                                    |
-                                    
-                                  Modem （數據機）
-                                  
-                                    |
-                                    
+                                    Internet
+
+                                        |
+
+                                   Modem （數據機）
+
+                                        |
+
                                 SW layer 2 （交換機第二層）
-                                
-                                    |
+
+                                        |
+                                       / \
                                     
-                                SW layer 1 （交換機第一層）
+    SW layer 1 （交換機第一層）< master >     SW layer 1 （交換機第一層）< backup >      
                                  
-                                    |
+                                       |
                                     
-                                 DMZ Port
-                                 
-                                    |
-                                    
-                              Virtual Network (虛擬網段)
+                                     DMZ Port
+
+                                        |
+
+                               Virtual Network (虛擬網段)
+                               
 
 # DMZ 邊界網路/對外網路
 
