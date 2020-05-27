@@ -1,6 +1,6 @@
 # Server Architecture
 
-# Version 1.0.0
+# Version 1.0.0 範例伺服器架構圖
 
            
                                          (fetch data)
@@ -14,3 +14,8 @@
                                                                               |
         API ------------> ------------> write/read ---------------> --------->|   
                                       (fetch data)
+                                      
+                                      
+# High Availability 熱備援
+
+
