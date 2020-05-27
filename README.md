@@ -100,10 +100,12 @@ NDB cluster: https://dev.mysql.com/doc/ndbapi/en/overview-ndb-api.html
                              Data (Tiers) 資料分層
                            
                                       ｜
-                  ------------------------------------------
-                   |            |             |             |
+                  -------------------------------------------------
+                 |           |           |            |            |
                
-                 Flash           SAS          SATA         Cloud
+                 Flash      SSD        SAS          SATA         Cloud
+               (cache)
+            
             
         faster <-----------------------------------------------> Slower
      
