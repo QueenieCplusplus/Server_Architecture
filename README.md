@@ -63,9 +63,9 @@
                
                  Flash           SAS          SATA         Cloud
             
-        faster <-----------------------------------------------> Slower
+        faster <------------------------------------------------> Slower
      
-    frequently <-----------------------------------------------> less frequently
+    frequently <------------------------------------------------> less frequently
             
 
 # DB Clustering 資料庫叢集
