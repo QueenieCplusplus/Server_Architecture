@@ -16,7 +16,7 @@
                                       (fetch data)
                                       
                                       
-# High Availability 熱備援
+# High Availability for Network 網路設備的熱備援
 
  
                                     Internet
@@ -42,6 +42,35 @@
 
                                Virtual Network (虛擬網段)
                                
+# High Availability for Server 主機設備的熱備援
+
+
+                                    App
+                                 
+                                     |
+                                  
+                                  Host 主機
+                                 
+                                      |
+                                  
+                               Virtual Disk 虛擬硬碟
+                              
+                                      |
+                                  
+                            Data (Tiers) 資料分層
+                           
+                                      ｜
+                  ------------------------------------------
+                   |            |             |             |
+               
+                 Flash           SAS          SATA         Cloud
+            
+        faster <-----------------------------------------------> Slower
+     
+    frequently <-----------------------------------------------> less frequently
+            
+
+                       
 
 # DMZ 邊界網路/對外網路
 
