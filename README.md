@@ -85,8 +85,10 @@
                            /     |      \
                            
                        node1    node2     node....
+                       slave    slave     slave
                    
 
+優勢：可避免單一主機當機而中斷服務，倘若 master 停機，則 slave 自動啟動。
 
 
 # DMZ 邊界網路/對外網路
