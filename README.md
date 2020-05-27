@@ -73,6 +73,21 @@
 # DB Clustering 資料庫叢集
 
 
+                              Master
+                              
+                                 |
+                                 
+                                 
+                           cluster engine
+                           
+                             /   |    \
+                            /    |     \
+                           /     |      \
+                           
+                       node1    node2     node....
+                   
+
+
 
 # DMZ 邊界網路/對外網路
 
