@@ -89,6 +89,8 @@
 優勢：可避免單一主機當機而中斷服務，倘若 master 停機，則 slave 自動啟動。
 效果：比傳統的複製 replica 備份效果來得好，因為複製備份無法做延展，也無法容錯（發生中斷服務自動啟動的功能）。
 
+NDB cluster: https://dev.mysql.com/doc/ndbapi/en/overview-ndb-api.html
+
 
 # DB LB 負載平衡
 
